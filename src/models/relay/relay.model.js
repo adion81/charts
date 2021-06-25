@@ -24,6 +24,7 @@ class Pledge {
         this.PledgerName = names[Math.floor(Math.random() * names.length)];
         this.AmountPerMile = rand > 50 ? (Math.random() * 10) : 0;
         this.StaticAmount = rand <= 50 ? (Math.random() * 200) : 0;
+        this.Message = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quamquam in hac divisione rem ipsam prorsus probo, elegantiam desidero."
     }
 }
 
